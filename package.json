@@ -3,7 +3,7 @@
   "version": "3.2.6",
   "description": "Sum of implementations for the Serial/TCP Modbus protocol.",
   "author": "Klaus Landsdorf <klaus.landsdorf@bianco-royal.de>",
-  "main": "./node-modbus/modbus.js",
+  "main": "./src/modbus.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/biancode/node-modbus"
@@ -57,7 +57,7 @@
   ],
   "readmeFilename": "README.md",
   "files": [
-    "node-modbus"
+    "src"
   ],
   "directories": {
     "example": "examples",
