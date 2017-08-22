@@ -8,6 +8,5 @@ support
 .gitignore
 *.iml
 *.conf.js
-src
 .jshintrc
 .jshintignore
