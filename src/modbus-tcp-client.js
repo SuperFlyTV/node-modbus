@@ -180,6 +180,14 @@ module.exports = stampit()
       return this
     }
 
+    this.dispose = function () {
+      closedOnPurpose = true
+      this.log.debug('Destroying client')
+      socket.destroy()
+      socket = null
+      return this
+    }
+
     // following is required to test of stream processing
     // and is only during test active
     if (process.env.DEBUG) {
